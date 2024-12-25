@@ -18,14 +18,14 @@ export default function LandingPage(){
                 <div className="navlist">
                     <p onClick={() => {
                         router("/ad23")
-                    }}><span style={{border: "2px solid white", padding: "2px", "border-radius": "6px" }}>Join as Guest</span></p>
+                    }}><span style={{border: "2px solid white", padding: "2px", "borderRadius": "6px" }}>Join as Guest</span></p>
                     <p onClick={() => {
                         router("/auth")
-                    }} ><span style={{border: "2px solid white", padding: "2px", "border-radius": "6px"  }}>Register</span></p>
+                    }} ><span style={{border: "2px solid white", padding: "2px", "borderRadius": "6px"  }}>Register</span></p>
                     <div onClick={() => {
                         router("/auth")
                     }} role='button'>
-                        <p><span style={{border: "2px solid white", padding: "2px", "border-radius": "6px"  }}>Login</span></p>
+                        <p><span style={{border: "2px solid white", padding: "2px", "borderRadius": "6px"  }}>Login</span></p>
                     </div>
                 </div>
             </nav>
