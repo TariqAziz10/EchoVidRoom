@@ -13,7 +13,9 @@ export default function LandingPage(){
             <nav>
                 <div className="navHeader">
                     
-                    <h1>ECHOvidROOM</h1>
+                    <h1 onClick={() => {
+                        router("/ad23")
+                    }} style={{cursor: "pointer"}}>ECHOvidROOM</h1>
                 </div>
                 <div className="navlist">
                     <p onClick={() => {
